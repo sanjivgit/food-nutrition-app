@@ -1,8 +1,8 @@
 import requests
 
 def get_raw_food_nutrition(query="banana"):
-    api_key = "6J42vMz257ndOAi5waghwfo81uyyWIzQm1k0HOCk"
-    url = "https://api.nal.usda.gov/fdc/v1/foods/search"
+    api_key = "gdfg"
+    url = "https://api.nal.d.gov/fdc/v1/foods/search"
     params = {
         "query": query,
         "dataType": "Foundation", # "Survey (FNDDS)",  # Can also try "Foundation"
